@@ -1,21 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tiago Reis Sampaio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>Tiago Reis Sampaio</h1>
       <p>Empreendedor | Cristão | Criador do Princípio Forte</p>
+      <div class="social-icons">
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/sampaioreis" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
     </header>
     <main>
       <p>Bem-vindo ao meu site pessoal.</p>
       <p>Aqui você encontra meus projetos, propósitos e conexões.</p>
       <a href="https://sampaioreis.github.io/principio-forte/" class="button">🌐 Ver o projeto Princípio Forte</a>
+      
+      <section class="contact">
+        <h2>Contato</h2>
+        <form action="https://formspree.io/f/xzbldzzb" method="POST">
+          <input type="text" name="name" placeholder="Seu nome" required />
+          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
     </main>
     <footer>
       <p>&copy; 2025 Tiago Reis Sampaio</p>

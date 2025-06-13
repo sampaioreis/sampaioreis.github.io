@@ -21,6 +21,21 @@ header p {
   color: #666;
 }
 
+.social-icons {
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #000;
+}
+
 main {
   margin-top: 2rem;
 }
@@ -39,8 +54,54 @@ main {
   background-color: #555;
 }
 
+.contact {
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact input,
+.contact textarea {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.contact button {
+  padding: 0.8rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #555;
+}
+
 footer {
   margin-top: 3rem;
   font-size: 0.9rem;
   color: #777;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+  .social-icons a {
+    font-size: 1.2rem;
+  }
 }
